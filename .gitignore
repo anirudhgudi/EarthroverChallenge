@@ -1,0 +1,17 @@
+# Ignore large dataset and model files
+frodobots-dataset-getting-started.zip
+frodobots_raw/
+frodobots_export/
+Learning-to-Drive-Anywhere-with-MBRA/train/wandb
+Learning-to-Drive-Anywhere-with-MBRA/train/logs
+Learning-to-Drive-Anywhere-with-MBRA/deployment/model_weights
+Learning-to-Drive-Anywhere-with-MBRA/dataset
+Learning-to-Drive-Anywhere-with-MBRA/lerobot
+Learning-to-Drive-Anywhere-with-MBRA/map_cache
+Learning-to-Drive-Anywhere-with-MBRA/MBRA_project_models/
+Learning-to-Drive-Anywhere-with-MBRA/sampler_frodobots_dataset/
+lerobot/
+__pycache__/
+*.pyc
+*.pth
+*.egg-info/
