@@ -1,0 +1,23 @@
+[0.618s] Invoking command in '/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/src/zero_shot_navigation': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zero_shot_navigation build --build-base /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/build install --record /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/install.log --install-scripts $base/lib/zero_shot_navigation --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.870s] writing ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/PKG-INFO
+[0.871s] writing dependency_links to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/entry_points.txt
+[0.871s] writing requirements to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/top_level.txt
+[0.905s] reading manifest file '../../build/zero_shot_navigation/zero_shot_navigation.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/zero_shot_navigation/zero_shot_navigation.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.907s] running install
+[0.910s] running install_lib
+[0.925s] running install_data
+[0.926s] copying launch/zero_shot_nav.launch.py -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/share/zero_shot_navigation/launch
+[0.926s] running install_egg_info
+[0.941s] removing '/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages/zero_shot_navigation-0.0.0-py3.12.egg-info' (and everything under it)
+[0.941s] Copying ../../build/zero_shot_navigation/zero_shot_navigation.egg-info to /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages/zero_shot_navigation-0.0.0-py3.12.egg-info
+[0.942s] running install_scripts
+[0.974s] Installing zero_shot_perception script to /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/zero_shot_navigation
+[0.975s] Installing zero_shot_planner script to /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/zero_shot_navigation
+[0.975s] writing list of installed files to '/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/install.log'
+[0.997s] Invoked command in '/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/src/zero_shot_navigation' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zero_shot_navigation build --build-base /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/build install --record /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/install.log --install-scripts $base/lib/zero_shot_navigation --single-version-externally-managed install_data

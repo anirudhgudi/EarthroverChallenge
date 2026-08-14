@@ -1,0 +1,3 @@
+[console_scripts]
+zero_shot_perception = zero_shot_navigation.zero_shot_perception:main
+zero_shot_planner = zero_shot_navigation.zero_shot_planner:main

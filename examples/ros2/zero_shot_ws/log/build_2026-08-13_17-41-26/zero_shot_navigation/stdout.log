@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/requires.txt
+writing top-level names to ../../build/zero_shot_navigation/zero_shot_navigation.egg-info/top_level.txt
+reading manifest file '../../build/zero_shot_navigation/zero_shot_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/zero_shot_navigation/zero_shot_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying zero_shot_navigation/zero_shot_perception.py -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/build/lib/zero_shot_navigation
+copying zero_shot_navigation/__init__.py -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/build/lib/zero_shot_navigation
+running install
+running install_lib
+copying /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/build/lib/zero_shot_navigation/zero_shot_perception.py -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages/zero_shot_navigation
+copying /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/build/lib/zero_shot_navigation/__init__.py -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages/zero_shot_navigation
+running install_data
+copying resource/zero_shot_navigation -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/share/zero_shot_navigation
+copying launch/zero_shot_nav.launch.py -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/share/zero_shot_navigation/launch
+copying config/nav2_params.yaml -> /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/share/zero_shot_navigation/config
+running install_egg_info
+removing '/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages/zero_shot_navigation-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/zero_shot_navigation/zero_shot_navigation.egg-info to /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/python3.12/site-packages/zero_shot_navigation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing zero_shot_perception script to /home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/install/zero_shot_navigation/lib/zero_shot_navigation
+writing list of installed files to '/home/mango/Earthrover/earth-rovers-sdk/examples/ros2/zero_shot_ws/build/zero_shot_navigation/install.log'

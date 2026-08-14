@@ -1,0 +1,28 @@
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      global_frame: earth_rover_gps
+      robot_base_frame: earth_rover_front_camera
+      use_sim_time: False
+      rolling_window: true
+      width: 5
+      height: 5
+      resolution: 0.05
+      footprint: "[ [0.15, 0.1], [0.15, -0.1], [-0.15, -0.1], [-0.15, 0.1] ]" # Approximate size for mini+
+      plugins: ["obstacle_layer", "inflation_layer"]
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: True
+        observation_sources: pointcloud
+        pointcloud:
+          topic: /local_costmap # Reusing our OccupancyGrid as a source
+          max_obstacle_height: 2.0
+          clearing: True
+          marking: True
+          data_type: "OccupancyGrid"
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        cost_scaling_factor: 3.0
+        inflation_radius: 0.55
